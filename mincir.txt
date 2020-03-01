@@ -1,1 +1,2 @@
 "I am FE2"
+"mincir bir kedi"
