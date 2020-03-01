@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 "I am FE2"
 "mincir bir kedi"
+=======
+"Mincir bir pisik" 
+>>>>>>> b38b619... hot fix
 =======
 "Mincir bir pisik" 
 >>>>>>> b38b619... hot fix
