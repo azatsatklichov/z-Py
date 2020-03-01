@@ -1,0 +1,26 @@
+
+
+http://thepythonguru.com/python-generators/
+
+https://www.learnpython.org/en/Multiple_Function_Arguments
+
+https://docs.python.org/3/tutorial/
+
+https://www.learnpython.org/
+
+https://pythonspot.com/binary-numbers-and-logical-operators/
+
+http://localhost:8080/orders#/form
+
+https://softwareengineering.stackexchange.com/questions/261137/database-design-4-types-of-users-but-have-different-functionality-separate-or
+
+
+http://zetcode.com/db/sqlitepythontutorial/
+
+
+https://www.tutorialspoint.com/sqlite/sqlite_python.htm
+
+http://flask.pocoo.org/docs/0.12/installation/
+
+
+sublime: https://gist.github.com/jonathancone/5682192#file-sublime-eclipse-shortcuts-txt

@@ -1,0 +1,3 @@
+cz,Praha
+cz,Brno
+sk,Bratislava

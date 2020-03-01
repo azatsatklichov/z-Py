@@ -1,0 +1,8 @@
+SK,Trencin
+CZ,Praha
+CZ,Ostrava
+SK,Bratislava
+CZ,Brno
+SK,Kosice
+CZ,Hradec Kralove
+DE,Berlin

@@ -1,0 +1,84 @@
+https://gist.github.com/mrliptontea/4c793ebdf72ed145bcbf
+
+
+Sublime Text 3 - Useful Shortcuts (Windows)
+General
+Shortcut	Description
+Ctrl+Shift+P	command prompt
+Ctrl+Alt+P	switch project
+Ctrl+P	go to file
+Ctrl+G	go to line
+Ctrl+R	go to methods
+Ctrl+Shift+R	go to methods in project
+Ctrl+KB	toggle side bar
+Ctrl+`	toggle console
+Ctrl+Shift+N	new window
+Editing
+Shortcut	Description
+Ctrl+L	select line (repeat select next lines)
+Ctrl+D	select word (repeat select others occurrences in context for multiple editing)
+Ctrl+Alt+Up / Ctrl+Alt+Down	select column for multiple editing
+Ctrl+Shift+M	select content into brackets
+Ctrl+Shift+Enter	insert line before
+Ctrl+Enter	inter line after
+Ctrl+Shift+K	delete line
+Ctrl+KK	delete from cursor to end of line
+Ctrl+KBackspace	delete from cursor to start of line
+Ctrl+Shift+D	duplicate line(s)
+Ctrl+J	join lines
+Ctrl+KU	upper case
+Ctrl+KL	lower case
+Ctrl+/	comment line
+Ctrl+Shift+/	block comment
+Ctrl+Y	redo or repeat
+Ctrl+C	copy
+Ctrl+V	paste
+Ctrl+Shift+V	paste and ident
+Ctrl+Space	autocomplete (repeat to select next suggestion)
+Ctrl+M	jump to matching brackets
+Ctrl+U	soft undo (movement undo)
+Ctrl+Shift+U	soft redo (movement redo)
+Code navigation
+Shortcut	Description
+F12	go to definition
+Alt+-	jump back
+Alt+Shift+-	jump forward
+XML / HTML
+Shortcut	Description
+Ctrl+Shift+A	select content into tag
+Alt+.	close tag
+Find / Replace
+Shortcut	Description
+Ctrl+F	find
+Ctrl+I	incremental find
+Ctrl+H	replace
+F3	find next occurrence of searched word
+Ctrl+F3	find next occurrence of current word
+Alt+F3	select all occurrences of current word for multiple editing
+Ctrl+Shift+F	find in files
+Navigation
+Shortcut	Description
+Ctrl+0	focus on sidebar
+Esc	focus back to edit area when focus on sidebar
+Splits / Tabs
+Shortcut	Description
+Alt+Shift+1	single column
+Alt+Shift+2	two columns
+Alt+Shift+5	grid (4 groups)
+Ctrl+[1,2,3...]	focus group
+Ctrl+Shift+[1,2,3...]	move file to group
+Alt+[1,2,3...]	select tab
+Bookmarks
+Shortcut	Description
+Ctrl+F2	toggle bookmark
+F2	next bookmark
+Shift+F2	previous bookmark
+Ctrl+Shift+F2	clear bookmarks
+Marks
+Shortcut	Description
+Ctrl+KSpace	set mark
+Ctrl+KW	delete from cursor to mark
+Ctrl+KA	select from cursor to mark
+Ctrl+KG	clear mark
+More
+Go to Preferences → Key Bindings - Default to explore all default shortcuts and read instructions for packages you installed to find out about their custom key bindings.

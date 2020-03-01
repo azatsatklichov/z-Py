@@ -1,0 +1,15 @@
+#connect as root password is 123456
+
+yum install -y zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel expat-devel
+
+
+mkdir /opt/rh/python36
+
+copy source of Python to current directory 
+
+tar xf Python-3.6.5
+
+./configure --prefix=/opt/rh/python36 --enable-shared LDFLAGS="-Wl,-rpath /usr/local/lib"
+
+make && make altinstall
+
