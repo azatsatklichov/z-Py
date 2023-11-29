@@ -7,9 +7,9 @@ Created on Jan 6, 2018
 
 #!/usr/bin/python
 
-print "Hello, Python!"
+print "Hello, Python!" 
 
-print "Letnany OTTO Berg"
+print "Letnany OTTO Berg" 
 
 item_1 = 3
 item_2 = 4
