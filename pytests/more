@@ -1,0 +1,53 @@
+
+https://www.tutorialspoint.com/pytest/pytest_grouping_the_tests.htm
+https://docs.pytest.org/en/6.2.x/fixture.html
+
+
+You can think of a test as being broken down into four steps:
+-------
+Arrange
+Act
+Assert
+Cleanup
+-------
+
+Pytest provides many inbuilt markers such as xfail, skip and parametrize.
+
+@pytest.mark.<markername>
+
+@pytest.mark.
+@pytest.mark.parameterize
+@pytest.mark.skip
+
+The configurations (conftest.py) and the testcases are called fixture in pytest
+
+Tests divided into three categories based on different granularities
+--------------------------------------------------------------------
+1. unit tests -  focus on particular methods or functionality which don’t rely on other untested components;
+2. integration tests - deal with complex flows and interactions that involve several units. They almost always rely on some mocked functionality for faster iteration;
+3. end-to-end tests - as opposite to the previous category, don’t take advantage of mocked functionality. They test the whole feature as it is, all the dependencies are present and set up.
+
+
+For testcases that are used by one test function
+------------------------------------------------
+This is done with the @pytest.mark.parametrize decorator
+
+
+
+
+----fictures -----
+Fixture scopes:   Fixtures are created when first requested by a test, and are destroyed based on their scope:
+
+1.function: the default scope, the fixture is destroyed at the end of the test.
+2. class: the fixture is destroyed during teardown of the last test in the class.
+3. module: the fixture is destroyed during teardown of the last test in the module.
+4. package: the fixture is destroyed during teardown of the last test in the package.
+5. session: the fixture is destroyed at the end of the test session.
+
+
+As a good practice −
+
+Create different test files based on functionality/module being tested.
+Give meaningful names to test files and methods.
+Have enough markers to group the tests based on various criteria.
+Use fixtures whenever needed.
